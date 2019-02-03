@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15822A3F22079B63004CB2B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A3E22079B63004CB2B4 /* AppDelegate.swift */; };
+		15822A4122079B63004CB2B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A4022079B63004CB2B4 /* ViewController.swift */; };
+		15822A4422079B63004CB2B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15822A4222079B63004CB2B4 /* Main.storyboard */; };
+		15822A4622079B64004CB2B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15822A4522079B64004CB2B4 /* Assets.xcassets */; };
+		15822A4922079B64004CB2B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15822A4722079B64004CB2B4 /* LaunchScreen.storyboard */; };
+		15822A5422079B65004CB2B4 /* CohabitationCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A5322079B65004CB2B4 /* CohabitationCheckerTests.swift */; };
+		15822A5F22079B65004CB2B4 /* CohabitationCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A5E22079B65004CB2B4 /* CohabitationCheckerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15822A5022079B65004CB2B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15822A3322079B63004CB2B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15822A3A22079B63004CB2B4;
+			remoteInfo = CohabitationChecker;
+		};
+		15822A5B22079B65004CB2B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15822A3322079B63004CB2B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15822A3A22079B63004CB2B4;
+			remoteInfo = CohabitationChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15822A3B22079B63004CB2B4 /* CohabitationChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CohabitationChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15822A3E22079B63004CB2B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15822A4022079B63004CB2B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15822A4322079B63004CB2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15822A4522079B64004CB2B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15822A4822079B64004CB2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15822A4A22079B64004CB2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15822A4F22079B65004CB2B4 /* CohabitationCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CohabitationCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15822A5322079B65004CB2B4 /* CohabitationCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CohabitationCheckerTests.swift; sourceTree = "<group>"; };
+		15822A5522079B65004CB2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15822A5A22079B65004CB2B4 /* CohabitationCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CohabitationCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15822A5E22079B65004CB2B4 /* CohabitationCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CohabitationCheckerUITests.swift; sourceTree = "<group>"; };
+		15822A6022079B65004CB2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15822A3822079B63004CB2B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15822A4C22079B65004CB2B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15822A5722079B65004CB2B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15822A3222079B63004CB2B4 = {
+			isa = PBXGroup;
+			children = (
+				15822A3D22079B63004CB2B4 /* CohabitationChecker */,
+				15822A5222079B65004CB2B4 /* CohabitationCheckerTests */,
+				15822A5D22079B65004CB2B4 /* CohabitationCheckerUITests */,
+				15822A3C22079B63004CB2B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15822A3C22079B63004CB2B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15822A3B22079B63004CB2B4 /* CohabitationChecker.app */,
+				15822A4F22079B65004CB2B4 /* CohabitationCheckerTests.xctest */,
+				15822A5A22079B65004CB2B4 /* CohabitationCheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15822A3D22079B63004CB2B4 /* CohabitationChecker */ = {
+			isa = PBXGroup;
+			children = (
+				15822A3E22079B63004CB2B4 /* AppDelegate.swift */,
+				15822A4022079B63004CB2B4 /* ViewController.swift */,
+				15822A4222079B63004CB2B4 /* Main.storyboard */,
+				15822A4522079B64004CB2B4 /* Assets.xcassets */,
+				15822A4722079B64004CB2B4 /* LaunchScreen.storyboard */,
+				15822A4A22079B64004CB2B4 /* Info.plist */,
+			);
+			path = CohabitationChecker;
+			sourceTree = "<group>";
+		};
+		15822A5222079B65004CB2B4 /* CohabitationCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				15822A5322079B65004CB2B4 /* CohabitationCheckerTests.swift */,
+				15822A5522079B65004CB2B4 /* Info.plist */,
+			);
+			path = CohabitationCheckerTests;
+			sourceTree = "<group>";
+		};
+		15822A5D22079B65004CB2B4 /* CohabitationCheckerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15822A5E22079B65004CB2B4 /* CohabitationCheckerUITests.swift */,
+				15822A6022079B65004CB2B4 /* Info.plist */,
+			);
+			path = CohabitationCheckerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15822A3A22079B63004CB2B4 /* CohabitationChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15822A6322079B65004CB2B4 /* Build configuration list for PBXNativeTarget "CohabitationChecker" */;
+			buildPhases = (
+				15822A3722079B63004CB2B4 /* Sources */,
+				15822A3822079B63004CB2B4 /* Frameworks */,
+				15822A3922079B63004CB2B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CohabitationChecker;
+			productName = CohabitationChecker;
+			productReference = 15822A3B22079B63004CB2B4 /* CohabitationChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15822A4E22079B65004CB2B4 /* CohabitationCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15822A6622079B65004CB2B4 /* Build configuration list for PBXNativeTarget "CohabitationCheckerTests" */;
+			buildPhases = (
+				15822A4B22079B65004CB2B4 /* Sources */,
+				15822A4C22079B65004CB2B4 /* Frameworks */,
+				15822A4D22079B65004CB2B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15822A5122079B65004CB2B4 /* PBXTargetDependency */,
+			);
+			name = CohabitationCheckerTests;
+			productName = CohabitationCheckerTests;
+			productReference = 15822A4F22079B65004CB2B4 /* CohabitationCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15822A5922079B65004CB2B4 /* CohabitationCheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15822A6922079B65004CB2B4 /* Build configuration list for PBXNativeTarget "CohabitationCheckerUITests" */;
+			buildPhases = (
+				15822A5622079B65004CB2B4 /* Sources */,
+				15822A5722079B65004CB2B4 /* Frameworks */,
+				15822A5822079B65004CB2B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15822A5C22079B65004CB2B4 /* PBXTargetDependency */,
+			);
+			name = CohabitationCheckerUITests;
+			productName = CohabitationCheckerUITests;
+			productReference = 15822A5A22079B65004CB2B4 /* CohabitationCheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15822A3322079B63004CB2B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "山口賢登";
+				TargetAttributes = {
+					15822A3A22079B63004CB2B4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					15822A4E22079B65004CB2B4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 15822A3A22079B63004CB2B4;
+					};
+					15822A5922079B65004CB2B4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 15822A3A22079B63004CB2B4;
+					};
+				};
+			};
+			buildConfigurationList = 15822A3622079B63004CB2B4 /* Build configuration list for PBXProject "CohabitationChecker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15822A3222079B63004CB2B4;
+			productRefGroup = 15822A3C22079B63004CB2B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15822A3A22079B63004CB2B4 /* CohabitationChecker */,
+				15822A4E22079B65004CB2B4 /* CohabitationCheckerTests */,
+				15822A5922079B65004CB2B4 /* CohabitationCheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15822A3922079B63004CB2B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15822A4922079B64004CB2B4 /* LaunchScreen.storyboard in Resources */,
+				15822A4622079B64004CB2B4 /* Assets.xcassets in Resources */,
+				15822A4422079B63004CB2B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15822A4D22079B65004CB2B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15822A5822079B65004CB2B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15822A3722079B63004CB2B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15822A4122079B63004CB2B4 /* ViewController.swift in Sources */,
+				15822A3F22079B63004CB2B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15822A4B22079B65004CB2B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15822A5422079B65004CB2B4 /* CohabitationCheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15822A5622079B65004CB2B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15822A5F22079B65004CB2B4 /* CohabitationCheckerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15822A5122079B65004CB2B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15822A3A22079B63004CB2B4 /* CohabitationChecker */;
+			targetProxy = 15822A5022079B65004CB2B4 /* PBXContainerItemProxy */;
+		};
+		15822A5C22079B65004CB2B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15822A3A22079B63004CB2B4 /* CohabitationChecker */;
+			targetProxy = 15822A5B22079B65004CB2B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15822A4222079B63004CB2B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15822A4322079B63004CB2B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15822A4722079B64004CB2B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15822A4822079B64004CB2B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15822A6122079B65004CB2B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15822A6222079B65004CB2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15822A6422079B65004CB2B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65VW7XZNV5;
+				INFOPLIST_FILE = CohabitationChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamakentoc.CohabitationChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15822A6522079B65004CB2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65VW7XZNV5;
+				INFOPLIST_FILE = CohabitationChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamakentoc.CohabitationChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15822A6722079B65004CB2B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65VW7XZNV5;
+				INFOPLIST_FILE = CohabitationCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamakentoc.CohabitationCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CohabitationChecker.app/CohabitationChecker";
+			};
+			name = Debug;
+		};
+		15822A6822079B65004CB2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65VW7XZNV5;
+				INFOPLIST_FILE = CohabitationCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamakentoc.CohabitationCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CohabitationChecker.app/CohabitationChecker";
+			};
+			name = Release;
+		};
+		15822A6A22079B65004CB2B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65VW7XZNV5;
+				INFOPLIST_FILE = CohabitationCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamakentoc.CohabitationCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CohabitationChecker;
+			};
+			name = Debug;
+		};
+		15822A6B22079B65004CB2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65VW7XZNV5;
+				INFOPLIST_FILE = CohabitationCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamakentoc.CohabitationCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CohabitationChecker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15822A3622079B63004CB2B4 /* Build configuration list for PBXProject "CohabitationChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15822A6122079B65004CB2B4 /* Debug */,
+				15822A6222079B65004CB2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15822A6322079B65004CB2B4 /* Build configuration list for PBXNativeTarget "CohabitationChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15822A6422079B65004CB2B4 /* Debug */,
+				15822A6522079B65004CB2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15822A6622079B65004CB2B4 /* Build configuration list for PBXNativeTarget "CohabitationCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15822A6722079B65004CB2B4 /* Debug */,
+				15822A6822079B65004CB2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15822A6922079B65004CB2B4 /* Build configuration list for PBXNativeTarget "CohabitationCheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15822A6A22079B65004CB2B4 /* Debug */,
+				15822A6B22079B65004CB2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15822A3322079B63004CB2B4 /* Project object */;
+}
