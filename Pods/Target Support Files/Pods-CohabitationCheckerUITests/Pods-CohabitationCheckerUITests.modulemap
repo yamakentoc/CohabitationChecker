@@ -1,0 +1,6 @@
+framework module Pods_CohabitationCheckerUITests {
+  umbrella header "Pods-CohabitationCheckerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
