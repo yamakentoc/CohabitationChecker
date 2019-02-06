@@ -34,6 +34,10 @@ extension ViewController: KolodaViewDelegate {
     func koloda(_ koloda: KolodaView, didSelectCardAt index: Int) {
         UIApplication.shared.open(URL(string: "https://yalantis.com/")!)
     }
+    
+    func koloda(_ koloda: KolodaView, allowedDirectionsForIndex index: Int) -> [SwipeResultDirection] {
+        return [.left, .down, .right]
+    }
 }
 
 extension ViewController: KolodaViewDataSource {
