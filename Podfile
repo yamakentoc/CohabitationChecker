@@ -7,6 +7,7 @@ target 'CohabitationChecker' do
 
   # Pods for CohabitationChecker
   pod 'R.swift'
+  pod "Koloda"
 
   target 'CohabitationCheckerTests' do
     inherit! :search_paths

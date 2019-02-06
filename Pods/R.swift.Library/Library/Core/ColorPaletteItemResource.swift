@@ -27,7 +27,7 @@ public protocol ColorPaletteItemResourceType {
   var alpha: CGFloat { get }
 }
 
-@available(*, deprecated: 11, message: "Use color assets instead")
+@available(*, deprecated, message: "Use color assets instead")
 public struct ColorPaletteItemResource: ColorPaletteItemResourceType {
 
   /// Name of the color

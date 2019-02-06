@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "83068AFBBBEF79325EF49D79C35DF65E"
+               BlueprintIdentifier = "EED4A596E4B06745E75B9FBF33FE3740"
                BuildableName = "Pods_CohabitationChecker.framework"
                BlueprintName = "Pods-CohabitationChecker"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "83068AFBBBEF79325EF49D79C35DF65E"
+            BlueprintIdentifier = "EED4A596E4B06745E75B9FBF33FE3740"
             BuildableName = "Pods_CohabitationChecker.framework"
             BlueprintName = "Pods-CohabitationChecker"
             ReferencedContainer = "container:Pods.xcodeproj">
