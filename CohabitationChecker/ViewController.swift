@@ -12,7 +12,6 @@ import Koloda
 class ViewController: UIViewController {
 
     @IBOutlet weak var kolodaView: KolodaView!
-    //let kolodaView = KolodaView()
     var hoge:[String] = ["hiya", "huga"]
     
     override func viewDidLoad() {
