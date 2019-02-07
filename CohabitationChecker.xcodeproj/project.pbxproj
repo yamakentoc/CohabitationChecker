@@ -40,7 +40,7 @@
 /* Begin PBXFileReference section */
 		15822A3B22079B63004CB2B4 /* CohabitationChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CohabitationChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15822A3E22079B63004CB2B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		15822A4022079B63004CB2B4 /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CheckViewController.swift; path = ../Select/CheckViewController.swift; sourceTree = "<group>"; };
+		15822A4022079B63004CB2B4 /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
 		15822A4522079B64004CB2B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15822A4822079B64004CB2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15822A4A22079B64004CB2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		15822A5E22079B65004CB2B4 /* CohabitationCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CohabitationCheckerUITests.swift; sourceTree = "<group>"; };
 		15822A6022079B65004CB2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15822A6D22079F02004CB2B4 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
-		15E05AD8220BD24300FAF6C3 /* CheckViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CheckViewController.storyboard; path = CohabitationChecker/Select/CheckViewController.storyboard; sourceTree = SOURCE_ROOT; };
+		15E05AD8220BD24300FAF6C3 /* CheckViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CheckViewController.storyboard; path = CohabitationChecker/Check/CheckViewController.storyboard; sourceTree = SOURCE_ROOT; };
 		30BC42FF71132F539F80CE04 /* Pods_CohabitationCheckerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CohabitationCheckerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A2B9F4FE8E6AB1D167357F /* Pods-CohabitationCheckerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CohabitationCheckerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CohabitationCheckerUITests/Pods-CohabitationCheckerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		32DEAF39ABBF924075A58EE5 /* Pods-CohabitationCheckerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CohabitationCheckerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CohabitationCheckerTests/Pods-CohabitationCheckerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -150,8 +150,7 @@
 				15E05AD8220BD24300FAF6C3 /* CheckViewController.storyboard */,
 				15822A4022079B63004CB2B4 /* CheckViewController.swift */,
 			);
-			name = Check;
-			path = "New Group";
+			path = Check;
 			sourceTree = "<group>";
 		};
 		87792FE981A15218577B0702 /* Pods */ = {
