@@ -19,6 +19,10 @@ class CheckViewController: UIViewController {
         initKolodaView()
     }
     
+    @IBAction func tapUndoButton(_ sender: UIButton) {
+        self.kolodaView.revertAction()
+    }
+    
     func initKolodaView() {
         kolodaView.dataSource = self
         kolodaView.delegate = self
@@ -34,30 +38,23 @@ extension CheckViewController: KolodaViewDelegate {
     func koloda(_ koloda: KolodaView, allowedDirectionsForIndex index: Int) -> [SwipeResultDirection] {
         return [.up]
     }
+    
+    func kolodaSwipeThresholdRatioMargin(_ koloda: KolodaView) -> CGFloat? {
+        return 0.1
+    }
 }
 
 extension CheckViewController: KolodaViewDataSource {
     func kolodaNumberOfCards(_ koloda: KolodaView) -> Int {
-        return hoge.count
+        return 100//hoge.count
     }
     func kolodaSpeedThatCardShouldDrag(_ koloda: KolodaView) -> DragSpeed {
         return .fast
     }
     
     func koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
-        let view = UIView()
-        let size = self.view.bounds.width * 0.8
-        view.frame = CGRect(x: 0, y: 0, width: size, height: size)
-        view.layer.backgroundColor = UIColor.white.cgColor
-        view.layer.shadowColor = UIColor.black.cgColor
-        view.layer.shadowOpacity = 0.3
-        view.layer.shadowOffset = CGSize(width: 0, height: 1.5)
-        let label = UILabel()
-        label.text = hoge[index]
-        label.sizeToFit()
-        label.center = view.center
-        view.addSubview(label)
-        return view
+        let checkCardView = CheckCardView(frame: self.kolodaView.frame)
+        return checkCardView
     }
     
     func koloda(_ koloda: KolodaView, viewForCardOverlayAt index: Int) -> OverlayView? {
