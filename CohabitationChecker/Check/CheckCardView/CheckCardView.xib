@@ -22,12 +22,18 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="BOS-qK-5Wy">
+                    <rect key="frame" x="31" y="298.5" width="269" height="31"/>
+                </slider>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="BOS-qK-5Wy" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.8" id="154-me-PMD"/>
                 <constraint firstItem="dMn-nZ-m7q" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.8" id="2JD-Z1-iAk"/>
                 <constraint firstItem="dMn-nZ-m7q" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="7xR-zz-L9f"/>
+                <constraint firstItem="BOS-qK-5Wy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="8zW-Sx-o0p"/>
                 <constraint firstItem="dMn-nZ-m7q" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="M27-dz-xdd"/>
+                <constraint firstItem="BOS-qK-5Wy" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="1.4" id="WvO-jT-qSa"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
