@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		15822A3F22079B63004CB2B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A3E22079B63004CB2B4 /* AppDelegate.swift */; };
-		15822A4122079B63004CB2B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A4022079B63004CB2B4 /* ViewController.swift */; };
-		15822A4422079B63004CB2B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15822A4222079B63004CB2B4 /* Main.storyboard */; };
+		15822A4122079B63004CB2B4 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A4022079B63004CB2B4 /* SelectViewController.swift */; };
 		15822A4622079B64004CB2B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15822A4522079B64004CB2B4 /* Assets.xcassets */; };
 		15822A4922079B64004CB2B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15822A4722079B64004CB2B4 /* LaunchScreen.storyboard */; };
 		15822A5422079B65004CB2B4 /* CohabitationCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A5322079B65004CB2B4 /* CohabitationCheckerTests.swift */; };
 		15822A5F22079B65004CB2B4 /* CohabitationCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A5E22079B65004CB2B4 /* CohabitationCheckerUITests.swift */; };
 		15822A6E22079F02004CB2B4 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A6D22079F02004CB2B4 /* R.generated.swift */; };
+		15E05AD9220BD24300FAF6C3 /* SelectViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E05AD8220BD24300FAF6C3 /* SelectViewController.storyboard */; };
 		7CFFE9CD347F54AE130D04AD /* Pods_CohabitationChecker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F3C634702D40EC8BEE2E37 /* Pods_CohabitationChecker.framework */; };
 		A1992AA7DAE97D00A561C1F4 /* Pods_CohabitationCheckerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BC42FF71132F539F80CE04 /* Pods_CohabitationCheckerUITests.framework */; };
 		FDBD3D19C9758AD0F5BC94F9 /* Pods_CohabitationCheckerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B7824466A686F2712EBA9C /* Pods_CohabitationCheckerTests.framework */; };
@@ -40,8 +40,7 @@
 /* Begin PBXFileReference section */
 		15822A3B22079B63004CB2B4 /* CohabitationChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CohabitationChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15822A3E22079B63004CB2B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		15822A4022079B63004CB2B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		15822A4322079B63004CB2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15822A4022079B63004CB2B4 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SelectViewController.swift; path = ../Select/SelectViewController.swift; sourceTree = "<group>"; };
 		15822A4522079B64004CB2B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15822A4822079B64004CB2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15822A4A22079B64004CB2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +51,7 @@
 		15822A5E22079B65004CB2B4 /* CohabitationCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CohabitationCheckerUITests.swift; sourceTree = "<group>"; };
 		15822A6022079B65004CB2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15822A6D22079F02004CB2B4 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		15E05AD8220BD24300FAF6C3 /* SelectViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SelectViewController.storyboard; path = CohabitationChecker/Select/SelectViewController.storyboard; sourceTree = SOURCE_ROOT; };
 		30BC42FF71132F539F80CE04 /* Pods_CohabitationCheckerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CohabitationCheckerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A2B9F4FE8E6AB1D167357F /* Pods-CohabitationCheckerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CohabitationCheckerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CohabitationCheckerUITests/Pods-CohabitationCheckerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		32DEAF39ABBF924075A58EE5 /* Pods-CohabitationCheckerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CohabitationCheckerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CohabitationCheckerTests/Pods-CohabitationCheckerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,8 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				15822A3E22079B63004CB2B4 /* AppDelegate.swift */,
-				15822A4022079B63004CB2B4 /* ViewController.swift */,
-				15822A4222079B63004CB2B4 /* Main.storyboard */,
+				15E05AD7220BD18C00FAF6C3 /* Select */,
 				15822A6D22079F02004CB2B4 /* R.generated.swift */,
 				15822A4522079B64004CB2B4 /* Assets.xcassets */,
 				15822A4722079B64004CB2B4 /* LaunchScreen.storyboard */,
@@ -143,6 +142,16 @@
 				15822A6022079B65004CB2B4 /* Info.plist */,
 			);
 			path = CohabitationCheckerUITests;
+			sourceTree = "<group>";
+		};
+		15E05AD7220BD18C00FAF6C3 /* Select */ = {
+			isa = PBXGroup;
+			children = (
+				15E05AD8220BD24300FAF6C3 /* SelectViewController.storyboard */,
+				15822A4022079B63004CB2B4 /* SelectViewController.swift */,
+			);
+			name = Select;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		87792FE981A15218577B0702 /* Pods */ = {
@@ -277,9 +286,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E05AD9220BD24300FAF6C3 /* SelectViewController.storyboard in Resources */,
 				15822A4922079B64004CB2B4 /* LaunchScreen.storyboard in Resources */,
 				15822A4622079B64004CB2B4 /* Assets.xcassets in Resources */,
-				15822A4422079B63004CB2B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +426,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15822A4122079B63004CB2B4 /* ViewController.swift in Sources */,
+				15822A4122079B63004CB2B4 /* SelectViewController.swift in Sources */,
 				15822A3F22079B63004CB2B4 /* AppDelegate.swift in Sources */,
 				15822A6E22079F02004CB2B4 /* R.generated.swift in Sources */,
 			);
@@ -455,14 +464,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		15822A4222079B63004CB2B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				15822A4322079B63004CB2B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		15822A4722079B64004CB2B4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

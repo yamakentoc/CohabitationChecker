@@ -9,7 +9,7 @@
 import UIKit
 import Koloda
 
-class ViewController: UIViewController {
+class SelectViewController: UIViewController {
 
     @IBOutlet weak var kolodaView: KolodaView!
     var hoge:[String] = ["hiya", "huga"]
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 
 }
 
-extension ViewController: KolodaViewDelegate {
+extension SelectViewController: KolodaViewDelegate {
     func kolodaDidRunOutOfCards(_ koloda: KolodaView) {
         koloda.reloadData()
     }
@@ -40,7 +40,7 @@ extension ViewController: KolodaViewDelegate {
     }
 }
 
-extension ViewController: KolodaViewDataSource {
+extension SelectViewController: KolodaViewDataSource {
     func kolodaNumberOfCards(_ koloda: KolodaView) -> Int {
         return hoge.count
     }

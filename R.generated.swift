@@ -55,17 +55,17 @@ struct R: Rswift.Validatable {
   struct storyboard {
     /// Storyboard `LaunchScreen`.
     static let launchScreen = _R.storyboard.launchScreen()
-    /// Storyboard `Main`.
-    static let main = _R.storyboard.main()
+    /// Storyboard `SelectViewController`.
+    static let selectViewController = _R.storyboard.selectViewController()
     
     /// `UIStoryboard(name: "LaunchScreen", bundle: ...)`
     static func launchScreen(_: Void = ()) -> UIKit.UIStoryboard {
       return UIKit.UIStoryboard(resource: R.storyboard.launchScreen)
     }
     
-    /// `UIStoryboard(name: "Main", bundle: ...)`
-    static func main(_: Void = ()) -> UIKit.UIStoryboard {
-      return UIKit.UIStoryboard(resource: R.storyboard.main)
+    /// `UIStoryboard(name: "SelectViewController", bundle: ...)`
+    static func selectViewController(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.selectViewController)
     }
     
     fileprivate init() {}
@@ -104,11 +104,11 @@ struct _R {
       fileprivate init() {}
     }
     
-    struct main: Rswift.StoryboardResourceWithInitialControllerType {
-      typealias InitialController = ViewController
+    struct selectViewController: Rswift.StoryboardResourceWithInitialControllerType {
+      typealias InitialController = SelectViewController
       
       let bundle = R.hostingBundle
-      let name = "Main"
+      let name = "SelectViewController"
       
       fileprivate init() {}
     }
