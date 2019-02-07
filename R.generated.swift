@@ -53,19 +53,19 @@ struct R: Rswift.Validatable {
   
   /// This `R.storyboard` struct is generated, and contains static references to 2 storyboards.
   struct storyboard {
+    /// Storyboard `CheckViewController`.
+    static let checkViewController = _R.storyboard.checkViewController()
     /// Storyboard `LaunchScreen`.
     static let launchScreen = _R.storyboard.launchScreen()
-    /// Storyboard `SelectViewController`.
-    static let selectViewController = _R.storyboard.selectViewController()
+    
+    /// `UIStoryboard(name: "CheckViewController", bundle: ...)`
+    static func checkViewController(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.checkViewController)
+    }
     
     /// `UIStoryboard(name: "LaunchScreen", bundle: ...)`
     static func launchScreen(_: Void = ()) -> UIKit.UIStoryboard {
       return UIKit.UIStoryboard(resource: R.storyboard.launchScreen)
-    }
-    
-    /// `UIStoryboard(name: "SelectViewController", bundle: ...)`
-    static func selectViewController(_: Void = ()) -> UIKit.UIStoryboard {
-      return UIKit.UIStoryboard(resource: R.storyboard.selectViewController)
     }
     
     fileprivate init() {}
@@ -95,20 +95,20 @@ struct _R {
   }
   
   struct storyboard {
+    struct checkViewController: Rswift.StoryboardResourceWithInitialControllerType {
+      typealias InitialController = CheckViewController
+      
+      let bundle = R.hostingBundle
+      let name = "CheckViewController"
+      
+      fileprivate init() {}
+    }
+    
     struct launchScreen: Rswift.StoryboardResourceWithInitialControllerType {
       typealias InitialController = UIKit.UIViewController
       
       let bundle = R.hostingBundle
       let name = "LaunchScreen"
-      
-      fileprivate init() {}
-    }
-    
-    struct selectViewController: Rswift.StoryboardResourceWithInitialControllerType {
-      typealias InitialController = SelectViewController
-      
-      let bundle = R.hostingBundle
-      let name = "SelectViewController"
       
       fileprivate init() {}
     }

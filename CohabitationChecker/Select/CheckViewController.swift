@@ -9,10 +9,10 @@
 import UIKit
 import Koloda
 
-class SelectViewController: UIViewController {
+class CheckViewController: UIViewController {
 
     @IBOutlet weak var kolodaView: KolodaView!
-    var hoge:[String] = ["hiya", "huga"]
+    var hoge:[String] = ["休日の過ごし方", "huga"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,21 +26,17 @@ class SelectViewController: UIViewController {
 
 }
 
-extension SelectViewController: KolodaViewDelegate {
+extension CheckViewController: KolodaViewDelegate {
     func kolodaDidRunOutOfCards(_ koloda: KolodaView) {
         koloda.reloadData()
     }
     
-    func koloda(_ koloda: KolodaView, didSelectCardAt index: Int) {
-        UIApplication.shared.open(URL(string: "https://yalantis.com/")!)
-    }
-    
     func koloda(_ koloda: KolodaView, allowedDirectionsForIndex index: Int) -> [SwipeResultDirection] {
-        return [.left, .down, .right]
+        return [.up]
     }
 }
 
-extension SelectViewController: KolodaViewDataSource {
+extension CheckViewController: KolodaViewDataSource {
     func kolodaNumberOfCards(_ koloda: KolodaView) -> Int {
         return hoge.count
     }
