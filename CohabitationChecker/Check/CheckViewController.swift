@@ -12,9 +12,9 @@ import Koloda
 class CheckViewController: UIViewController {
 
     @IBOutlet weak var kolodaView: KolodaView!
-    var itemText:[String] = ["かわいい？", "かっこいい？", "かっこいい？"]
-    var firstAnswer: [String] = ["可愛くない", "かっこよくない", "かっこよくない"]
-    var secondAnswer: [String] = ["可愛い", "かっこいい", "かっこいい"]
+    var itemText:[String] = ["休日の過ごし方", "トイレットペーパー", "バスタオルを使う頻度"]
+    var firstAnswer: [String] = ["外に出かける", "シングル", "毎日替える"]
+    var secondAnswer: [String] = ["家で過ごす", "ダブル", "何日か使ってから"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
