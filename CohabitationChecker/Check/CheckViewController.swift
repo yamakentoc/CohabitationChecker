@@ -12,7 +12,9 @@ import Koloda
 class CheckViewController: UIViewController {
 
     @IBOutlet weak var kolodaView: KolodaView!
-    var hoge:[String] = ["休日の過ごし方", "huga"]
+    var itemText:[String] = ["かわいい？", "かっこいい？", "かっこいい？"]
+    var firstAnswer: [String] = ["可愛くない", "かっこよくない", "かっこよくない"]
+    var secondAnswer: [String] = ["可愛い", "かっこいい", "かっこいい"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +33,7 @@ class CheckViewController: UIViewController {
 }
 
 extension CheckViewController: KolodaViewDelegate {
+    //カードがなくなったときに呼ばれる
     func kolodaDidRunOutOfCards(_ koloda: KolodaView) {
         koloda.reloadData()
     }
@@ -40,25 +43,30 @@ extension CheckViewController: KolodaViewDelegate {
     }
     
     func kolodaSwipeThresholdRatioMargin(_ koloda: KolodaView) -> CGFloat? {
-        return 0.1
+        return 0.01
+    }
+    //スワイプしたに呼ばれる
+    func koloda(_ koloda: KolodaView, didSwipeCardAt index: Int, in direction: SwipeResultDirection) {
+        
     }
 }
 
 extension CheckViewController: KolodaViewDataSource {
     func kolodaNumberOfCards(_ koloda: KolodaView) -> Int {
-        return 100//hoge.count
+        return itemText.count
     }
     func kolodaSpeedThatCardShouldDrag(_ koloda: KolodaView) -> DragSpeed {
-        return .fast
+        return .default
     }
     
     func koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
         let checkCardView = CheckCardView(frame: self.kolodaView.frame)
+        checkCardView.setLabel(itemText[index], firstAnswer[index], secondAnswer[index])
         return checkCardView
     }
     
     func koloda(_ koloda: KolodaView, viewForCardOverlayAt index: Int) -> OverlayView? {
-        return nil//Bundle.main.loadNibNamed("OverlayView", owner: self, options: nil)![0] as? OverlayView
+        return nil
     }
 }
 

@@ -9,6 +9,10 @@ import UIKit
 
 class CheckCardView: UIView {
     
+    @IBOutlet weak var itemLabel: UILabel!
+    @IBOutlet weak var firstAnswerLabel: UILabel!
+    @IBOutlet weak var secondAnswerLabel: UILabel!
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         loadNib()
@@ -29,4 +33,11 @@ class CheckCardView: UIView {
             self.addSubview(view)
         }
     }
+    
+    func setLabel(_ itemText: String, _ firstAnswer: String, _ secondAnswer: String) {
+        self.itemLabel.text = itemText
+        self.firstAnswerLabel.text = firstAnswer
+        self.secondAnswerLabel.text = secondAnswer
+    }
+    
 }

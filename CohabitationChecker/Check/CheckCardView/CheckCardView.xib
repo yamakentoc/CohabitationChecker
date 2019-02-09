@@ -10,7 +10,13 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CheckCardView" customModule="CohabitationChecker" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CheckCardView" customModule="CohabitationChecker" customModuleProvider="target">
+            <connections>
+                <outlet property="firstAnswerLabel" destination="MYO-id-gZ3" id="QiT-dh-cI7"/>
+                <outlet property="itemLabel" destination="dMn-nZ-m7q" id="kdv-Tq-St5"/>
+                <outlet property="secondAnswerLabel" destination="iDW-t9-xfd" id="lYr-wP-mXK"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="331" height="448"/>
@@ -25,15 +31,31 @@
                 <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="BOS-qK-5Wy">
                     <rect key="frame" x="31" y="298.5" width="269" height="31"/>
                 </slider>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="firstAnswer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYO-id-gZ3">
+                    <rect key="frame" x="4" y="274" width="69" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="secondAnswer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDW-t9-xfd">
+                    <rect key="frame" x="238" y="274" width="89" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="BOS-qK-5Wy" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.8" id="154-me-PMD"/>
                 <constraint firstItem="dMn-nZ-m7q" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.8" id="2JD-Z1-iAk"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="iDW-t9-xfd" secondAttribute="trailing" constant="4" id="2oX-f7-2a1"/>
                 <constraint firstItem="dMn-nZ-m7q" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="7xR-zz-L9f"/>
                 <constraint firstItem="BOS-qK-5Wy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="8zW-Sx-o0p"/>
+                <constraint firstItem="BOS-qK-5Wy" firstAttribute="top" secondItem="iDW-t9-xfd" secondAttribute="bottom" constant="8.5" id="DEg-NA-CVT"/>
                 <constraint firstItem="dMn-nZ-m7q" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="M27-dz-xdd"/>
+                <constraint firstItem="BOS-qK-5Wy" firstAttribute="top" secondItem="MYO-id-gZ3" secondAttribute="bottom" constant="8.5" id="NQ3-cG-7tR"/>
                 <constraint firstItem="BOS-qK-5Wy" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="1.4" id="WvO-jT-qSa"/>
+                <constraint firstItem="MYO-id-gZ3" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="4" id="YDA-k2-rdE"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
