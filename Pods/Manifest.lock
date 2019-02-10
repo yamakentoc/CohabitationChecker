@@ -1,0 +1,28 @@
+PODS:
+  - Koloda (4.5):
+    - pop (~> 1.0)
+  - pop (1.0.12)
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
+
+DEPENDENCIES:
+  - Koloda
+  - R.swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Koloda
+    - pop
+    - R.swift
+    - R.swift.Library
+
+SPEC CHECKSUMS:
+  Koloda: b1983d795f005f1436f9aaf1911bc287af82348f
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+
+PODFILE CHECKSUM: 6d6876688a817cafb572e14e78abff4e9bbf6b0f
+
+COCOAPODS: 1.5.3

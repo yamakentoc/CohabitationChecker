@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1535ECB0220ED3DD00BD613E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535ECAF220ED3DD00BD613E /* UIColor.swift */; };
 		15822A3F22079B63004CB2B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A3E22079B63004CB2B4 /* AppDelegate.swift */; };
-		15822A4122079B63004CB2B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A4022079B63004CB2B4 /* ViewController.swift */; };
-		15822A4422079B63004CB2B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15822A4222079B63004CB2B4 /* Main.storyboard */; };
+		15822A4122079B63004CB2B4 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A4022079B63004CB2B4 /* CheckViewController.swift */; };
 		15822A4622079B64004CB2B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15822A4522079B64004CB2B4 /* Assets.xcassets */; };
 		15822A4922079B64004CB2B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15822A4722079B64004CB2B4 /* LaunchScreen.storyboard */; };
 		15822A5422079B65004CB2B4 /* CohabitationCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A5322079B65004CB2B4 /* CohabitationCheckerTests.swift */; };
 		15822A5F22079B65004CB2B4 /* CohabitationCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A5E22079B65004CB2B4 /* CohabitationCheckerUITests.swift */; };
+		15822A6E22079F02004CB2B4 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A6D22079F02004CB2B4 /* R.generated.swift */; };
+		15E05AD9220BD24300FAF6C3 /* CheckViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E05AD8220BD24300FAF6C3 /* CheckViewController.storyboard */; };
+		15E05AE1220C21BF00FAF6C3 /* CheckCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E05AE0220C21BF00FAF6C3 /* CheckCardView.xib */; };
+		15E05AE3220C21D500FAF6C3 /* CheckCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E05AE2220C21D500FAF6C3 /* CheckCardView.swift */; };
+		7CFFE9CD347F54AE130D04AD /* Pods_CohabitationChecker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F3C634702D40EC8BEE2E37 /* Pods_CohabitationChecker.framework */; };
+		A1992AA7DAE97D00A561C1F4 /* Pods_CohabitationCheckerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BC42FF71132F539F80CE04 /* Pods_CohabitationCheckerUITests.framework */; };
+		FDBD3D19C9758AD0F5BC94F9 /* Pods_CohabitationCheckerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B7824466A686F2712EBA9C /* Pods_CohabitationCheckerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1535ECAF220ED3DD00BD613E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		15822A3B22079B63004CB2B4 /* CohabitationChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CohabitationChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15822A3E22079B63004CB2B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		15822A4022079B63004CB2B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		15822A4322079B63004CB2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15822A4022079B63004CB2B4 /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
 		15822A4522079B64004CB2B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15822A4822079B64004CB2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15822A4A22079B64004CB2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +54,19 @@
 		15822A5A22079B65004CB2B4 /* CohabitationCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CohabitationCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15822A5E22079B65004CB2B4 /* CohabitationCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CohabitationCheckerUITests.swift; sourceTree = "<group>"; };
 		15822A6022079B65004CB2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15822A6D22079F02004CB2B4 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		15E05AD8220BD24300FAF6C3 /* CheckViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CheckViewController.storyboard; path = CohabitationChecker/Check/CheckViewController.storyboard; sourceTree = SOURCE_ROOT; };
+		15E05AE0220C21BF00FAF6C3 /* CheckCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckCardView.xib; sourceTree = "<group>"; };
+		15E05AE2220C21D500FAF6C3 /* CheckCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCardView.swift; sourceTree = "<group>"; };
+		30BC42FF71132F539F80CE04 /* Pods_CohabitationCheckerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CohabitationCheckerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31A2B9F4FE8E6AB1D167357F /* Pods-CohabitationCheckerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CohabitationCheckerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CohabitationCheckerUITests/Pods-CohabitationCheckerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		32DEAF39ABBF924075A58EE5 /* Pods-CohabitationCheckerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CohabitationCheckerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CohabitationCheckerTests/Pods-CohabitationCheckerTests.release.xcconfig"; sourceTree = "<group>"; };
+		42B7824466A686F2712EBA9C /* Pods_CohabitationCheckerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CohabitationCheckerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F3C634702D40EC8BEE2E37 /* Pods_CohabitationChecker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CohabitationChecker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81FA9ED6CD948C6216BE3513 /* Pods-CohabitationChecker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CohabitationChecker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CohabitationChecker/Pods-CohabitationChecker.debug.xcconfig"; sourceTree = "<group>"; };
+		90DD64E8AA92FDD7A402FC8F /* Pods-CohabitationChecker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CohabitationChecker.release.xcconfig"; path = "Pods/Target Support Files/Pods-CohabitationChecker/Pods-CohabitationChecker.release.xcconfig"; sourceTree = "<group>"; };
+		97DF8DBA4550372ACBE8A4AC /* Pods-CohabitationCheckerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CohabitationCheckerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CohabitationCheckerTests/Pods-CohabitationCheckerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B36784CD791CC573E6710E18 /* Pods-CohabitationCheckerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CohabitationCheckerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CohabitationCheckerUITests/Pods-CohabitationCheckerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CFFE9CD347F54AE130D04AD /* Pods_CohabitationChecker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDBD3D19C9758AD0F5BC94F9 /* Pods_CohabitationCheckerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1992AA7DAE97D00A561C1F4 /* Pods_CohabitationCheckerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1535ECB1220FE5C400BD613E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1535ECAF220ED3DD00BD613E /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		15822A3222079B63004CB2B4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +112,8 @@
 				15822A5222079B65004CB2B4 /* CohabitationCheckerTests */,
 				15822A5D22079B65004CB2B4 /* CohabitationCheckerUITests */,
 				15822A3C22079B63004CB2B4 /* Products */,
+				87792FE981A15218577B0702 /* Pods */,
+				C373B274A6C57DBFD55BF8F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +131,9 @@
 			isa = PBXGroup;
 			children = (
 				15822A3E22079B63004CB2B4 /* AppDelegate.swift */,
-				15822A4022079B63004CB2B4 /* ViewController.swift */,
-				15822A4222079B63004CB2B4 /* Main.storyboard */,
+				1535ECB1220FE5C400BD613E /* Extensions */,
+				15E05AD7220BD18C00FAF6C3 /* Check */,
+				15822A6D22079F02004CB2B4 /* R.generated.swift */,
 				15822A4522079B64004CB2B4 /* Assets.xcassets */,
 				15822A4722079B64004CB2B4 /* LaunchScreen.storyboard */,
 				15822A4A22079B64004CB2B4 /* Info.plist */,
@@ -125,6 +159,48 @@
 			path = CohabitationCheckerUITests;
 			sourceTree = "<group>";
 		};
+		15E05AD7220BD18C00FAF6C3 /* Check */ = {
+			isa = PBXGroup;
+			children = (
+				15822A4022079B63004CB2B4 /* CheckViewController.swift */,
+				15E05AD8220BD24300FAF6C3 /* CheckViewController.storyboard */,
+				15E05ADF220C21B100FAF6C3 /* CheckCardView */,
+			);
+			path = Check;
+			sourceTree = "<group>";
+		};
+		15E05ADF220C21B100FAF6C3 /* CheckCardView */ = {
+			isa = PBXGroup;
+			children = (
+				15E05AE2220C21D500FAF6C3 /* CheckCardView.swift */,
+				15E05AE0220C21BF00FAF6C3 /* CheckCardView.xib */,
+			);
+			path = CheckCardView;
+			sourceTree = "<group>";
+		};
+		87792FE981A15218577B0702 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81FA9ED6CD948C6216BE3513 /* Pods-CohabitationChecker.debug.xcconfig */,
+				90DD64E8AA92FDD7A402FC8F /* Pods-CohabitationChecker.release.xcconfig */,
+				97DF8DBA4550372ACBE8A4AC /* Pods-CohabitationCheckerTests.debug.xcconfig */,
+				32DEAF39ABBF924075A58EE5 /* Pods-CohabitationCheckerTests.release.xcconfig */,
+				31A2B9F4FE8E6AB1D167357F /* Pods-CohabitationCheckerUITests.debug.xcconfig */,
+				B36784CD791CC573E6710E18 /* Pods-CohabitationCheckerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C373B274A6C57DBFD55BF8F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F3C634702D40EC8BEE2E37 /* Pods_CohabitationChecker.framework */,
+				42B7824466A686F2712EBA9C /* Pods_CohabitationCheckerTests.framework */,
+				30BC42FF71132F539F80CE04 /* Pods_CohabitationCheckerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15822A6322079B65004CB2B4 /* Build configuration list for PBXNativeTarget "CohabitationChecker" */;
 			buildPhases = (
+				BE7338D72E4D3783DFC116E6 /* [CP] Check Pods Manifest.lock */,
 				15822A3722079B63004CB2B4 /* Sources */,
 				15822A3822079B63004CB2B4 /* Frameworks */,
 				15822A3922079B63004CB2B4 /* Resources */,
+				95DD1AC1863924887E5FC0E6 /* [CP] Embed Pods Frameworks */,
+				15822A6C22079E3D004CB2B4 /* Rswift */,
 			);
 			buildRules = (
 			);
@@ -149,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15822A6622079B65004CB2B4 /* Build configuration list for PBXNativeTarget "CohabitationCheckerTests" */;
 			buildPhases = (
+				9F16E62F3AA306736AE5E635 /* [CP] Check Pods Manifest.lock */,
 				15822A4B22079B65004CB2B4 /* Sources */,
 				15822A4C22079B65004CB2B4 /* Frameworks */,
 				15822A4D22079B65004CB2B4 /* Resources */,
@@ -167,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15822A6922079B65004CB2B4 /* Build configuration list for PBXNativeTarget "CohabitationCheckerUITests" */;
 			buildPhases = (
+				4C764313660C53C78C3A3DBB /* [CP] Check Pods Manifest.lock */,
 				15822A5622079B65004CB2B4 /* Sources */,
 				15822A5722079B65004CB2B4 /* Frameworks */,
 				15822A5822079B65004CB2B4 /* Resources */,
@@ -229,9 +310,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E05AD9220BD24300FAF6C3 /* CheckViewController.storyboard in Resources */,
+				15E05AE1220C21BF00FAF6C3 /* CheckCardView.xib in Resources */,
 				15822A4922079B64004CB2B4 /* LaunchScreen.storyboard in Resources */,
 				15822A4622079B64004CB2B4 /* Assets.xcassets in Resources */,
-				15822A4422079B63004CB2B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +333,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15822A6C22079E3D004CB2B4 /* Rswift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Rswift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"\n\n";
+		};
+		4C764313660C53C78C3A3DBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CohabitationCheckerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95DD1AC1863924887E5FC0E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CohabitationChecker/Pods-CohabitationChecker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CohabitationChecker/Pods-CohabitationChecker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F16E62F3AA306736AE5E635 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CohabitationCheckerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE7338D72E4D3783DFC116E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CohabitationChecker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		15822A3722079B63004CB2B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15822A4122079B63004CB2B4 /* ViewController.swift in Sources */,
+				15822A4122079B63004CB2B4 /* CheckViewController.swift in Sources */,
+				15E05AE3220C21D500FAF6C3 /* CheckCardView.swift in Sources */,
 				15822A3F22079B63004CB2B4 /* AppDelegate.swift in Sources */,
+				15822A6E22079F02004CB2B4 /* R.generated.swift in Sources */,
+				1535ECB0220ED3DD00BD613E /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +491,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		15822A4222079B63004CB2B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				15822A4322079B63004CB2B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		15822A4722079B64004CB2B4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -430,6 +620,7 @@
 		};
 		15822A6422079B65004CB2B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81FA9ED6CD948C6216BE3513 /* Pods-CohabitationChecker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +639,7 @@
 		};
 		15822A6522079B65004CB2B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90DD64E8AA92FDD7A402FC8F /* Pods-CohabitationChecker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +658,7 @@
 		};
 		15822A6722079B65004CB2B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97DF8DBA4550372ACBE8A4AC /* Pods-CohabitationCheckerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +680,7 @@
 		};
 		15822A6822079B65004CB2B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32DEAF39ABBF924075A58EE5 /* Pods-CohabitationCheckerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +702,7 @@
 		};
 		15822A6A22079B65004CB2B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A2B9F4FE8E6AB1D167357F /* Pods-CohabitationCheckerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +723,7 @@
 		};
 		15822A6B22079B65004CB2B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36784CD791CC573E6710E18 /* Pods-CohabitationCheckerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
