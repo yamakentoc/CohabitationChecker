@@ -36,8 +36,16 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.nib` struct is generated, and contains static references to 0 nibs.
+  /// This `R.nib` struct is generated, and contains static references to 1 nibs.
   struct nib {
+    /// Nib `CheckCardView`.
+    static let checkCardView = _R.nib._CheckCardView()
+    
+    /// `UINib(name: "CheckCardView", in: bundle)`
+    static func checkCardView(_: Void = ()) -> UIKit.UINib {
+      return UIKit.UINib(resource: R.nib.checkCardView)
+    }
+    
     fileprivate init() {}
   }
   
@@ -53,19 +61,19 @@ struct R: Rswift.Validatable {
   
   /// This `R.storyboard` struct is generated, and contains static references to 2 storyboards.
   struct storyboard {
+    /// Storyboard `CheckViewController`.
+    static let checkViewController = _R.storyboard.checkViewController()
     /// Storyboard `LaunchScreen`.
     static let launchScreen = _R.storyboard.launchScreen()
-    /// Storyboard `Main`.
-    static let main = _R.storyboard.main()
+    
+    /// `UIStoryboard(name: "CheckViewController", bundle: ...)`
+    static func checkViewController(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.checkViewController)
+    }
     
     /// `UIStoryboard(name: "LaunchScreen", bundle: ...)`
     static func launchScreen(_: Void = ()) -> UIKit.UIStoryboard {
       return UIKit.UIStoryboard(resource: R.storyboard.launchScreen)
-    }
-    
-    /// `UIStoryboard(name: "Main", bundle: ...)`
-    static func main(_: Void = ()) -> UIKit.UIStoryboard {
-      return UIKit.UIStoryboard(resource: R.storyboard.main)
     }
     
     fileprivate init() {}
@@ -91,24 +99,35 @@ struct R: Rswift.Validatable {
 
 struct _R {
   struct nib {
+    struct _CheckCardView: Rswift.NibResourceType {
+      let bundle = R.hostingBundle
+      let name = "CheckCardView"
+      
+      func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [NSObject : AnyObject]? = nil) -> UIKit.UIView? {
+        return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? UIKit.UIView
+      }
+      
+      fileprivate init() {}
+    }
+    
     fileprivate init() {}
   }
   
   struct storyboard {
+    struct checkViewController: Rswift.StoryboardResourceWithInitialControllerType {
+      typealias InitialController = CheckViewController
+      
+      let bundle = R.hostingBundle
+      let name = "CheckViewController"
+      
+      fileprivate init() {}
+    }
+    
     struct launchScreen: Rswift.StoryboardResourceWithInitialControllerType {
       typealias InitialController = UIKit.UIViewController
       
       let bundle = R.hostingBundle
       let name = "LaunchScreen"
-      
-      fileprivate init() {}
-    }
-    
-    struct main: Rswift.StoryboardResourceWithInitialControllerType {
-      typealias InitialController = ViewController
-      
-      let bundle = R.hostingBundle
-      let name = "Main"
       
       fileprivate init() {}
     }
