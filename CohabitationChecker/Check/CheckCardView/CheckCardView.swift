@@ -29,9 +29,9 @@ class CheckCardView: UIView {
             view.layer.backgroundColor = UIColor.white.cgColor
             view.layer.cornerRadius = 18
             view.layer.shadowColor = UIColor.black.cgColor
-            view.layer.shadowOpacity = 0.3//影の濃さ
+            view.layer.shadowOpacity = 0.5//影の濃さ
             view.layer.shadowRadius = 4//ぼかし
-            view.layer.shadowOffset = CGSize(width: 0, height: 1.5)
+            view.layer.shadowOffset = CGSize(width: 1, height: 1.5)
             self.addSubview(view)
         }
     }

@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/yamakentoc/Desktop/pro/swift/CohabitationChecker/CohabitationChecker/Check/CheckCardView/CheckCardView.swift">
-   </FileRef>
-   <FileRef
       location = "group:CohabitationChecker.xcodeproj">
    </FileRef>
    <FileRef

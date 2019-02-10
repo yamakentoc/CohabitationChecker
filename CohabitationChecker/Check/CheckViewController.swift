@@ -11,6 +11,14 @@ import Koloda
 
 class CheckViewController: UIViewController {
 
+    @IBOutlet weak var titleLabel: UILabel! {
+        didSet {
+            titleLabel.layer.shadowColor = UIColor.black.cgColor
+            titleLabel.layer.shadowOpacity = 0.5//影の濃さ
+            titleLabel.layer.shadowRadius = 4//ぼかし
+            titleLabel.layer.shadowOffset = CGSize(width: 0, height: 1.5)
+        }
+    }
     @IBOutlet weak var kolodaView: KolodaView!
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var backButton: UIButton!
@@ -23,6 +31,7 @@ class CheckViewController: UIViewController {
         super.viewDidLoad()
         kolodaView.dataSource = self
         kolodaView.delegate = self
+        initGradation()
         initButton(nextButton)
         initButton(backButton)
     }
@@ -35,10 +44,20 @@ class CheckViewController: UIViewController {
         self.kolodaView.revertAction()
     }
     
+    func initGradation() {
+        let topColor = UIColor(166, 192, 254)
+        let bottomColor = UIColor(246, 128, 132)
+        let gradientColors: [CGColor] = [topColor.cgColor, bottomColor.cgColor]
+        let gradientLayer: CAGradientLayer = CAGradientLayer()
+        gradientLayer.colors = gradientColors
+        gradientLayer.frame = self.view.bounds
+        self.view.layer.insertSublayer(gradientLayer, at: 0)
+    }
+    
     func initButton(_ button: UIButton) {
-        button.layer.cornerRadius = backButton.bounds.width / 2
+        button.layer.cornerRadius = view.bounds.height * 0.04
         button.layer.shadowColor = UIColor.black.cgColor
-        button.layer.shadowOpacity = 0.3//影の濃さ
+        button.layer.shadowOpacity = 0.5//影の濃さ
         button.layer.shadowRadius = 4//ぼかし
         button.layer.shadowOffset = CGSize(width: 0, height: 1.5)
     }
