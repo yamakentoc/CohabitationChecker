@@ -18,6 +18,10 @@
 		15E05AD9220BD24300FAF6C3 /* CheckViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E05AD8220BD24300FAF6C3 /* CheckViewController.storyboard */; };
 		15E05AE1220C21BF00FAF6C3 /* CheckCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E05AE0220C21BF00FAF6C3 /* CheckCardView.xib */; };
 		15E05AE3220C21D500FAF6C3 /* CheckCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E05AE2220C21D500FAF6C3 /* CheckCardView.swift */; };
+		15FA708C22151539009B6CDC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA708B22151539009B6CDC /* HomeViewController.swift */; };
+		15FA708E22151552009B6CDC /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FA708D22151552009B6CDC /* HomeViewController.storyboard */; };
+		15FA709322151D3E009B6CDC /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA709222151D3E009B6CDC /* ResultViewController.swift */; };
+		15FA709522151D47009B6CDC /* ResultViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FA709422151D47009B6CDC /* ResultViewController.storyboard */; };
 		7CFFE9CD347F54AE130D04AD /* Pods_CohabitationChecker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F3C634702D40EC8BEE2E37 /* Pods_CohabitationChecker.framework */; };
 		A1992AA7DAE97D00A561C1F4 /* Pods_CohabitationCheckerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BC42FF71132F539F80CE04 /* Pods_CohabitationCheckerUITests.framework */; };
 		FDBD3D19C9758AD0F5BC94F9 /* Pods_CohabitationCheckerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B7824466A686F2712EBA9C /* Pods_CohabitationCheckerTests.framework */; };
@@ -58,6 +62,11 @@
 		15E05AD8220BD24300FAF6C3 /* CheckViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CheckViewController.storyboard; path = CohabitationChecker/Check/CheckViewController.storyboard; sourceTree = SOURCE_ROOT; };
 		15E05AE0220C21BF00FAF6C3 /* CheckCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckCardView.xib; sourceTree = "<group>"; };
 		15E05AE2220C21D500FAF6C3 /* CheckCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCardView.swift; sourceTree = "<group>"; };
+		15FA708B22151539009B6CDC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		15FA708D22151552009B6CDC /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		15FA7090221516D9009B6CDC /* Root.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Root.storyboard; path = /Users/yamakentoc/Desktop/pro/swift/CohabitationChecker/CohabitationChecker/Root.storyboard; sourceTree = "<absolute>"; };
+		15FA709222151D3E009B6CDC /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		15FA709422151D47009B6CDC /* ResultViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResultViewController.storyboard; sourceTree = "<group>"; };
 		30BC42FF71132F539F80CE04 /* Pods_CohabitationCheckerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CohabitationCheckerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A2B9F4FE8E6AB1D167357F /* Pods-CohabitationCheckerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CohabitationCheckerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CohabitationCheckerUITests/Pods-CohabitationCheckerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		32DEAF39ABBF924075A58EE5 /* Pods-CohabitationCheckerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CohabitationCheckerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CohabitationCheckerTests/Pods-CohabitationCheckerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,9 +141,11 @@
 			children = (
 				15822A3E22079B63004CB2B4 /* AppDelegate.swift */,
 				1535ECB1220FE5C400BD613E /* Extensions */,
+				15FA708A22151517009B6CDC /* Home */,
 				15E05AD7220BD18C00FAF6C3 /* Check */,
 				15822A6D22079F02004CB2B4 /* R.generated.swift */,
 				15822A4522079B64004CB2B4 /* Assets.xcassets */,
+				15FA7090221516D9009B6CDC /* Root.storyboard */,
 				15822A4722079B64004CB2B4 /* LaunchScreen.storyboard */,
 				15822A4A22079B64004CB2B4 /* Info.plist */,
 			);
@@ -165,6 +176,7 @@
 				15822A4022079B63004CB2B4 /* CheckViewController.swift */,
 				15E05AD8220BD24300FAF6C3 /* CheckViewController.storyboard */,
 				15E05ADF220C21B100FAF6C3 /* CheckCardView */,
+				15FA709122151D0B009B6CDC /* Result */,
 			);
 			path = Check;
 			sourceTree = "<group>";
@@ -176,6 +188,24 @@
 				15E05AE0220C21BF00FAF6C3 /* CheckCardView.xib */,
 			);
 			path = CheckCardView;
+			sourceTree = "<group>";
+		};
+		15FA708A22151517009B6CDC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				15FA708B22151539009B6CDC /* HomeViewController.swift */,
+				15FA708D22151552009B6CDC /* HomeViewController.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		15FA709122151D0B009B6CDC /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				15FA709222151D3E009B6CDC /* ResultViewController.swift */,
+				15FA709422151D47009B6CDC /* ResultViewController.storyboard */,
+			);
+			path = Result;
 			sourceTree = "<group>";
 		};
 		87792FE981A15218577B0702 /* Pods */ = {
@@ -310,6 +340,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15FA709522151D47009B6CDC /* ResultViewController.storyboard in Resources */,
+				15FA708E22151552009B6CDC /* HomeViewController.storyboard in Resources */,
 				15E05AD9220BD24300FAF6C3 /* CheckViewController.storyboard in Resources */,
 				15E05AE1220C21BF00FAF6C3 /* CheckCardView.xib in Resources */,
 				15822A4922079B64004CB2B4 /* LaunchScreen.storyboard in Resources */,
@@ -453,9 +485,11 @@
 			files = (
 				15822A4122079B63004CB2B4 /* CheckViewController.swift in Sources */,
 				15E05AE3220C21D500FAF6C3 /* CheckCardView.swift in Sources */,
+				15FA709322151D3E009B6CDC /* ResultViewController.swift in Sources */,
 				15822A3F22079B63004CB2B4 /* AppDelegate.swift in Sources */,
 				15822A6E22079F02004CB2B4 /* R.generated.swift in Sources */,
 				1535ECB0220ED3DD00BD613E /* UIColor.swift in Sources */,
+				15FA708C22151539009B6CDC /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
