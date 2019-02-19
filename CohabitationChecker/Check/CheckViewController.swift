@@ -71,8 +71,8 @@ class CheckViewController: UIViewController {
 extension CheckViewController: KolodaViewDelegate {
     //カードがなくなったときに呼ばれる
     func kolodaDidRunOutOfCards(_ koloda: KolodaView) {
-//        guard let resultVC = R.storyboard.resultViewController.instantiateInitialViewController() else { return }
-//        navigationController?.show(resultVC, sender: nil)
+        guard let resultVC = R.storyboard.resultViewController.instantiateInitialViewController() else { return }
+        self.navigationController?.pushViewController(resultVC, animated: true)
     }
     
     func koloda(_ koloda: KolodaView, allowedDirectionsForIndex index: Int) -> [SwipeResultDirection] {

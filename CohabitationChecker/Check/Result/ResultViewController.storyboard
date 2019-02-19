@@ -17,13 +17,24 @@
                     <view key="view" contentMode="scaleToFill" id="6T7-Io-tVG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6wh-Hd-oho">
+                                <rect key="frame" x="184" y="433" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="tapOKButton:" destination="3Ri-pp-IV0" eventType="touchUpInside" id="trx-Xm-ado"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86481707519999995" green="0.31498442199999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="zq9-1W-yhS"/>
                     </view>
+                    <navigationItem key="navigationItem" id="CRA-t1-k4U"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UpK-Mm-kDE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="370" y="139"/>
+            <point key="canvasLocation" x="1279.7101449275362" y="138.61607142857142"/>
         </scene>
     </scenes>
 </document>

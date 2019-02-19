@@ -165,7 +165,7 @@ struct _R: Rswift.Validatable {
     }
     
     struct homeViewController: Rswift.StoryboardResourceWithInitialControllerType {
-      typealias InitialController = HomeViewController
+      typealias InitialController = UIKit.UINavigationController
       
       let bundle = R.hostingBundle
       let name = "HomeViewController"
