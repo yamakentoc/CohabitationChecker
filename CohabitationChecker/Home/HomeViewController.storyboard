@@ -37,10 +37,10 @@
             </objects>
             <point key="canvasLocation" x="2073.913043478261" y="122.54464285714285"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Custom Transition Navigation Controller-->
         <scene sceneID="u6o-em-shA">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="8qO-xR-y5g" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="8qO-xR-y5g" customClass="CustomTransitionNavigationController" customModule="CohabitationChecker" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="search" id="6Ei-8Z-Jgj"/>
                     <toolbarItems/>
                     <nil key="simulatedTopBarMetrics"/>

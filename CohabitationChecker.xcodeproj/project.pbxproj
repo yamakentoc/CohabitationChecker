@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1535ECB0220ED3DD00BD613E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535ECAF220ED3DD00BD613E /* UIColor.swift */; };
+		15376141221C61380036681E /* CustomTransitionNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15376140221C61380036681E /* CustomTransitionNavigationController.swift */; };
 		15822A3F22079B63004CB2B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A3E22079B63004CB2B4 /* AppDelegate.swift */; };
 		15822A4122079B63004CB2B4 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A4022079B63004CB2B4 /* CheckViewController.swift */; };
 		15822A4622079B64004CB2B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15822A4522079B64004CB2B4 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		1535ECAF220ED3DD00BD613E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		15376140221C61380036681E /* CustomTransitionNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionNavigationController.swift; sourceTree = "<group>"; };
 		15822A3B22079B63004CB2B4 /* CohabitationChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CohabitationChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15822A3E22079B63004CB2B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15822A4022079B63004CB2B4 /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				15822A3E22079B63004CB2B4 /* AppDelegate.swift */,
+				15376140221C61380036681E /* CustomTransitionNavigationController.swift */,
 				1535ECB1220FE5C400BD613E /* Extensions */,
 				15FA708A22151517009B6CDC /* Home */,
 				15E05AD7220BD18C00FAF6C3 /* Check */,
@@ -492,6 +495,7 @@
 				15822A6E22079F02004CB2B4 /* R.generated.swift in Sources */,
 				1535ECB0220ED3DD00BD613E /* UIColor.swift in Sources */,
 				15FA708C22151539009B6CDC /* HomeViewController.swift in Sources */,
+				15376141221C61380036681E /* CustomTransitionNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
