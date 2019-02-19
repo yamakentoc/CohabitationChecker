@@ -30,10 +30,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Xo4-q5-baT"/>
                     </view>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="6Ei-8Z-Jgj"/>
+                    <navigationItem key="navigationItem" id="yr8-Vq-bOn"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h2y-XL-6li" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="255" y="123"/>
+            <point key="canvasLocation" x="1163.768115942029" y="122.54464285714285"/>
         </scene>
         <!--CheckViewController-->
         <scene sceneID="vem-GX-f6U">
@@ -41,7 +44,7 @@
                 <viewControllerPlaceholder storyboardName="CheckViewController" id="hdj-Mf-bTl" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XM4-HD-cOC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="887" y="-65"/>
+            <point key="canvasLocation" x="1797" y="123"/>
         </scene>
     </scenes>
 </document>

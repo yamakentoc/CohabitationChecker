@@ -15,6 +15,7 @@
 		15822A5422079B65004CB2B4 /* CohabitationCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A5322079B65004CB2B4 /* CohabitationCheckerTests.swift */; };
 		15822A5F22079B65004CB2B4 /* CohabitationCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A5E22079B65004CB2B4 /* CohabitationCheckerUITests.swift */; };
 		15822A6E22079F02004CB2B4 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15822A6D22079F02004CB2B4 /* R.generated.swift */; };
+		1585D22A221C3FDF003A9CF3 /* Root.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1585D229221C3FDF003A9CF3 /* Root.storyboard */; };
 		15E05AD9220BD24300FAF6C3 /* CheckViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E05AD8220BD24300FAF6C3 /* CheckViewController.storyboard */; };
 		15E05AE1220C21BF00FAF6C3 /* CheckCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E05AE0220C21BF00FAF6C3 /* CheckCardView.xib */; };
 		15E05AE3220C21D500FAF6C3 /* CheckCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E05AE2220C21D500FAF6C3 /* CheckCardView.swift */; };
@@ -59,12 +60,12 @@
 		15822A5E22079B65004CB2B4 /* CohabitationCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CohabitationCheckerUITests.swift; sourceTree = "<group>"; };
 		15822A6022079B65004CB2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15822A6D22079F02004CB2B4 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		1585D229221C3FDF003A9CF3 /* Root.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Root.storyboard; sourceTree = "<group>"; };
 		15E05AD8220BD24300FAF6C3 /* CheckViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CheckViewController.storyboard; path = CohabitationChecker/Check/CheckViewController.storyboard; sourceTree = SOURCE_ROOT; };
 		15E05AE0220C21BF00FAF6C3 /* CheckCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckCardView.xib; sourceTree = "<group>"; };
 		15E05AE2220C21D500FAF6C3 /* CheckCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCardView.swift; sourceTree = "<group>"; };
 		15FA708B22151539009B6CDC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		15FA708D22151552009B6CDC /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
-		15FA7090221516D9009B6CDC /* Root.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Root.storyboard; path = /Users/yamakentoc/Desktop/pro/swift/CohabitationChecker/CohabitationChecker/Root.storyboard; sourceTree = "<absolute>"; };
 		15FA709222151D3E009B6CDC /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		15FA709422151D47009B6CDC /* ResultViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResultViewController.storyboard; sourceTree = "<group>"; };
 		30BC42FF71132F539F80CE04 /* Pods_CohabitationCheckerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CohabitationCheckerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,8 +145,8 @@
 				15FA708A22151517009B6CDC /* Home */,
 				15E05AD7220BD18C00FAF6C3 /* Check */,
 				15822A6D22079F02004CB2B4 /* R.generated.swift */,
+				1585D229221C3FDF003A9CF3 /* Root.storyboard */,
 				15822A4522079B64004CB2B4 /* Assets.xcassets */,
-				15FA7090221516D9009B6CDC /* Root.storyboard */,
 				15822A4722079B64004CB2B4 /* LaunchScreen.storyboard */,
 				15822A4A22079B64004CB2B4 /* Info.plist */,
 			);
@@ -344,6 +345,7 @@
 				15FA708E22151552009B6CDC /* HomeViewController.storyboard in Resources */,
 				15E05AD9220BD24300FAF6C3 /* CheckViewController.storyboard in Resources */,
 				15E05AE1220C21BF00FAF6C3 /* CheckCardView.xib in Resources */,
+				1585D22A221C3FDF003A9CF3 /* Root.storyboard in Resources */,
 				15822A4922079B64004CB2B4 /* LaunchScreen.storyboard in Resources */,
 				15822A4622079B64004CB2B4 /* Assets.xcassets in Resources */,
 			);
