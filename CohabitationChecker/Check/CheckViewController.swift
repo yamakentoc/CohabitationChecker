@@ -44,6 +44,10 @@ class CheckViewController: UIViewController {
         self.kolodaView.revertAction()
     }
     
+    @IBAction func tapCancelButton(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     func initGradation() {
         let topColor = UIColor(166, 192, 254)
         let bottomColor = UIColor(246, 128, 132)

@@ -31,8 +31,16 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 0 images.
+  /// This `R.image` struct is generated, and contains static references to 1 images.
   struct image {
+    /// Image `batu_white`.
+    static let batu_white = Rswift.ImageResource(bundle: R.hostingBundle, name: "batu_white")
+    
+    /// `UIImage(named: "batu_white", bundle: ..., traitCollection: ...)`
+    static func batu_white(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.batu_white, compatibleWith: traitCollection)
+    }
+    
     fileprivate init() {}
   }
   
@@ -107,7 +115,7 @@ struct R: Rswift.Validatable {
   
   fileprivate struct intern: Rswift.Validatable {
     fileprivate static func validate() throws {
-      // There are no resources to validate
+      try _R.validate()
     }
     
     fileprivate init() {}
@@ -118,7 +126,11 @@ struct R: Rswift.Validatable {
   fileprivate init() {}
 }
 
-struct _R {
+struct _R: Rswift.Validatable {
+  static func validate() throws {
+    try storyboard.validate()
+  }
+  
   struct nib {
     struct _CheckCardView: Rswift.NibResourceType {
       let bundle = R.hostingBundle
@@ -134,12 +146,20 @@ struct _R {
     fileprivate init() {}
   }
   
-  struct storyboard {
-    struct checkViewController: Rswift.StoryboardResourceWithInitialControllerType {
+  struct storyboard: Rswift.Validatable {
+    static func validate() throws {
+      try checkViewController.validate()
+    }
+    
+    struct checkViewController: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
       typealias InitialController = CheckViewController
       
       let bundle = R.hostingBundle
       let name = "CheckViewController"
+      
+      static func validate() throws {
+        if UIKit.UIImage(named: "batu_white") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'batu_white' is used in storyboard 'CheckViewController', but couldn't be loaded.") }
+      }
       
       fileprivate init() {}
     }

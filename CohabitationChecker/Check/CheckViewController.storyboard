@@ -18,6 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="同棲チェッカー" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y98-SX-F5z">
+                                <rect key="frame" x="8" y="66" width="398" height="62.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iYW-ri-nKi" customClass="KolodaView" customModule="Koloda">
+                                <rect key="frame" x="41.5" y="179" width="331" height="448"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q3c-l4-RqY">
                                 <rect key="frame" x="67.5" y="687" width="72" height="72"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -41,16 +51,16 @@
                                     <action selector="tapNextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zwv-TO-e1w"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="同棲チェッカー" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y98-SX-F5z">
-                                <rect key="frame" x="8" y="66" width="398" height="62.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iYW-ri-nKi" customClass="KolodaView" customModule="Koloda">
-                                <rect key="frame" x="41.5" y="179" width="331" height="448"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dor-Wu-MY2">
+                                <rect key="frame" x="362.5" y="60" width="31.5" height="31.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Dor-Wu-MY2" secondAttribute="height" multiplier="1:1" id="OHS-ya-7go"/>
+                                </constraints>
+                                <state key="normal" image="batu_white"/>
+                                <connections>
+                                    <action selector="tapCancelButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TCk-XC-Ylr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -60,6 +70,7 @@
                             <constraint firstItem="iYW-ri-nKi" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="2q2-RB-EUk"/>
                             <constraint firstItem="y98-SX-F5z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" multiplier="1.5" id="52K-Iq-cQa"/>
                             <constraint firstItem="iYW-ri-nKi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="63O-Ct-Xhu"/>
+                            <constraint firstItem="Dor-Wu-MY2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="Dl7-TW-myo"/>
                             <constraint firstItem="q3c-l4-RqY" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.08" id="H2K-Bh-y07"/>
                             <constraint firstItem="8uc-Tx-bMS" firstAttribute="centerY" secondItem="q3c-l4-RqY" secondAttribute="centerY" id="LAX-1G-dJb"/>
                             <constraint firstItem="8uc-Tx-bMS" firstAttribute="width" secondItem="q3c-l4-RqY" secondAttribute="width" id="M6I-7Y-k7J"/>
@@ -68,6 +79,8 @@
                             <constraint firstItem="y98-SX-F5z" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.07" id="Xem-xT-l2E"/>
                             <constraint firstItem="iYW-ri-nKi" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="YRv-FS-bis"/>
                             <constraint firstItem="8uc-Tx-bMS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.5" id="aIR-XT-QsL"/>
+                            <constraint firstItem="Dor-Wu-MY2" firstAttribute="height" secondItem="y98-SX-F5z" secondAttribute="height" multiplier="0.5" id="ckD-7U-aPj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dor-Wu-MY2" secondAttribute="trailing" constant="20" id="dzR-JM-hML"/>
                             <constraint firstItem="iYW-ri-nKi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.9" id="gQM-8m-Rt6"/>
                             <constraint firstItem="q3c-l4-RqY" firstAttribute="top" secondItem="iYW-ri-nKi" secondAttribute="bottom" constant="60" id="tt0-4I-pEb"/>
                         </constraints>
@@ -85,4 +98,7 @@
             <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="batu_white" width="814" height="818"/>
+    </resources>
 </document>
